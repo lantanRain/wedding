@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es6",
+        "lib": [
+            "dom",
+            "es6",
+        ],
+        "baseUrl": ".",
+        "outDir": "dist",
+        "sourceMap": true,
+        "charset": "utf8",
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./node_modules/**/*"
+    ]
+}
