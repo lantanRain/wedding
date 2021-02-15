@@ -252,3 +252,78 @@ a.inv-phone-icon:hover {
     text-decoration:none;
     cursor:pointer;
 }
+
+/* location */
+.location-section {
+    padding: 3.125rem 0 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.map_wrap {
+    margin: 0 15px;
+    border: 0px;
+    line-height: 10%;
+    box-sizing: border-box;
+}
+
+.location-address .address {
+    padding: 20px;
+}
+
+.input_hall {
+    color: #555;
+    font-size: 1.23rem;
+}
+
+.input_address {
+    color: #666;
+    font-size: 15px;
+    line-height: 150%;
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.input_etel {
+    color: #666;
+    font-size: 15px;
+    line-height: 150%;
+    display: block;
+    margin-inline-start: 40px;
+}
+
+.icon_tel {
+    margin-top: 20px;
+    top: 7px;
+    font-size: 15px;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+    font-family: 'KoPub Batang';
+    margin-left: 1.250rem;
+    font-size: 2.89rem;
+    font-weight: 500;
+    line-height: 2.250rem;
+    text-align: center;
+    color: #000;
+    text-decoration: none !important;
+}
+
+
+a.hall-phone-icon {
+    font-family: 'KoPub Batang';
+    margin-left: 1.250rem;
+    font-size: 2.89rem;
+    font-weight: 500;
+    line-height: 2.250rem;
+    text-align: center;
+    color: #000;
+    text-decoration: none !important;
+}
+
+a.hall-phone-icon:hover {
+    color:424781;
+    text-decoration:none;
+    cursor:pointer;
+}

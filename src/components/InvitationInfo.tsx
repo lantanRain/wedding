@@ -44,7 +44,7 @@ class InvitationInfo extends Component {
                                     <p className="honju">
                                         <span className="inv-span">정용갑 • 최옥선</span>
                                     </p>
-                                    <p className="inv-text-default"> 의 딸</p>
+                                    <p className="inv-text-default">의 딸  </p>
                                     <p className="inv-text-child">혜인</p>
                                 </div>
                             </div>
