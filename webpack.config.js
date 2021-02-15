@@ -35,7 +35,7 @@ module.exports = (env, options) => {
             hot: true,
             inline: true,
             port: 9000,
-            open: true,
+            // open: true,
             disableHostCheck: true
         },
         plugins: [

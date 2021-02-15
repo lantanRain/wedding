@@ -11,12 +11,12 @@ import Remittance from '../src/components/Remittance';
 
 function App() {
     return (
-        <div className="invite_wedding">
+        <div className="content">
             <WelcomeCover></WelcomeCover>
             <InvitationInfo></InvitationInfo>
             <Location></Location>
             {/* <Gallery></Gallery> */}
-            <Remittance></Remittance>
+            {/* <Remittance></Remittance> */}
         </div>
     );
 }

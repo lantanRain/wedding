@@ -7,10 +7,13 @@ class Location extends Component {
     render() {
         return (
             <Fragment>
-                <div className="map_wrap">
-                    <div id="daumRoughmapContainer1613323348322" className="root_daum_roughmap root_daum_roughmap_landing"></div>
-                    지도지도
-                </div>
+                <section className="visual-section">
+                    <div className="main-title">오 시 는 길</div>
+
+                    <div className="map_wrap">
+                        <div id="daumRoughmapContainer1613323348322" className="root_daum_roughmap root_daum_roughmap_landing"></div>
+                    </div>
+                </section>
             </Fragment>
         );
     }

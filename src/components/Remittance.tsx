@@ -6,9 +6,12 @@ class Remittance extends Component {
     render() {
         return (
             <Fragment>
-                <div>
-                    dsfsfdsfsdfdsf
-                </div>
+                <section className="visual-section">
+                    <div>
+                        hello
+
+                    </div>
+                </section>
             </Fragment>
         );
     }
