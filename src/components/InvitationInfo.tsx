@@ -34,8 +34,14 @@ class InvitationInfo extends Component {
                     <div>
                         <div>신랑 백현규</div>
                         <div>
-                            <a href="tel:010-"></a>
-                            <a href="sms:010-"></a>
+                            <a href="tel:010-2933-2534"></a>
+                            <a href="sms:010-2933-2534"></a>
+                        </div>
+                        <div>
+                            <div>신랑측 혼주</div>
+                            <div> 아버지 백명화</div>
+                            <div>어머니 손명자</div>
+                            <div> 연락처</div>
                         </div>
                     </div>
                     <div>
@@ -43,6 +49,12 @@ class InvitationInfo extends Component {
                         <div>
                             <a href="tel:010-2845-9193"></a>
                             <a href="sms:010-2845-9193"></a>
+                        </div>
+                        <div>
+                            <div>신부측 혼주</div>
+                            <div> 아버지 정용갑</div>
+                            <div>어머니 최옥선</div>
+                            <div> 연락처</div>
                         </div>
                     </div>
                 </div>

@@ -1,4 +1,5 @@
 var path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = (env, options) => {
     const config = {
@@ -20,20 +21,28 @@ module.exports = (env, options) => {
                     exclude: /node_modules/,
                     use: 'ts-loader'
                 },
+                {
+                    test: /\.css$/,
+                    use: [MiniCssExtractPlugin.loader, 'css-loader'],
+                }
 
             ],
         },
         devServer: {
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             contentBase: path.join(__dirname, "/"),
             compress: true,
             hot: true,
             inline: true,
             port: 9000,
-            open: true
+            open: true,
+            disableHostCheck: true
         },
         plugins: [
+            // 기타 플러그인
+            new MiniCssExtractPlugin({ filename: 'app.css' })
         ]
+
     }
 
     // 배포

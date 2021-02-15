@@ -3,12 +3,11 @@ import React, { Component, Fragment } from 'react';
 
 class Remittance extends Component {
 
-
     render() {
         return (
             <Fragment>
                 <div>
-                    Gallery
+                    dsfsfdsfsdfdsf
                 </div>
             </Fragment>
         );
