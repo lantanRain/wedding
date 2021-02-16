@@ -7,6 +7,7 @@ class Location extends Component {
     render() {
         return (
             <Fragment>
+                <br />
                 <section className="location-section">
                     <div className="main-title">오 시 는 길</div>
 

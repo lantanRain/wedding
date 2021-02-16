@@ -52,8 +52,6 @@ class InvitationInfo extends Component {
                     </div>
                 </section>
                 <section className="invitation-call">
-                    <div className="main-title">INVITATION</div>
-
                     <div className="inv-call-layer">
                         <div className="inv-call-row">
                             <div className="inv-call-title">신랑에게 연락하기</div>
@@ -67,6 +65,36 @@ class InvitationInfo extends Component {
                             <div className="inv-call-btn">
                                 <a href="tel:010-2845-9193" className="inv-phone-icon"> ✆ </a>
                                 <a href="sms:010-2845-9193" className="inv-phone-icon"> ✉ </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section className="invitation-parent">
+                    <div className="main-title">혼주에게 연락하기</div>
+                    <div className="con">
+                        <div className="col">
+                            <div className="honju-tit sl">🤵🏻 신랑 측 혼주</div>
+                            <div className="box">
+                                <div className="name"><span>아버지</span> <strong>백명화</strong></div>
+                                <div className="name"><span>어머니</span> <strong>손명자</strong></div>
+                                <div className="honju-btn">
+                                    <a href="tel:010-7272-0774" className="com-btn inv-phone-icon"> ✆ </a>
+                                    <a href="sms:010-7272-0774" className="com-btn inv-phone-icon"> ✉ </a>
+                                    <span className="com-btn account">NH농협 백명화<br />1104-12-112438 </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="honju-tit sb">👰🏻‍♀️ 신부 측 혼주</div>
+                            <div className="box">
+                                <div className="name"><span>아버지</span> <strong>정용갑</strong></div>
+                                <div className="name"><span>어머니</span> <strong>최옥선</strong></div>
+                                <div className="honju-btn">
+                                    <a href="tel:010-6383-9194" className="com-btn inv-phone-icon"> ✆ </a>
+                                    <a href="sms:010-6383-9194" className="com-btn inv-phone-icon"> ✉ </a>
+                                    <span className="com-btn account">SC제일 정용갑<br />645-20-225003 </span>
+                                </div>
                             </div>
                         </div>
                     </div>

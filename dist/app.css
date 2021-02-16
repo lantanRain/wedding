@@ -13,7 +13,8 @@ body::-webkit-scrollbar {
 
 
 .main-title {
-    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 0.76rem;
     font-family: 'KoPub Batang';
     font-size: 1.275rem;
     font-weight: 450;
@@ -204,6 +205,7 @@ body::-webkit-scrollbar {
 /* invitation call */
 .invitation-call{
     padding: 2.34rem 0;
+    display: block;
     text-align: center;
 }
 
@@ -239,7 +241,7 @@ body::-webkit-scrollbar {
 a.inv-phone-icon {
     font-family: 'KoPub Batang';
     margin-left: 1.250rem;
-    font-size: 2.89rem;
+    font-size: 2.3rem;
     font-weight: 500;
     line-height: 2.250rem;
     text-align: center;
@@ -248,17 +250,63 @@ a.inv-phone-icon {
 }
 
 a.inv-phone-icon:hover {
-    color:424781;
+    color:#424781;
     text-decoration:none;
     cursor:pointer;
 }
 
+/* invitation parent */
+.invitation-parent {
+    display: block;
+    text-align: center;
+    padding: 1rem 0 0;
+    margin: 0;
+}
+.invitation-parent .con {
+    padding: 1.563rem 2.250rem 1.875rem;
+    display: block;
+    text-align: center;
+}
+
+.con .col {
+    float: left;
+    width: 50%;
+}
+
+.honju-tit.sl {
+    color: #4D1BC6;
+}
+.box {
+    margin: 0 -0.625rem;
+    padding: 0 0.625rem;   
+    margin-top: 0.938rem;
+}
+.box .name {
+    margin-bottom: 0.438rem;
+}
+.box .honju-btn {
+    font-size: 0;
+    line-height: 0;
+}
+.honju-tit.sb {
+    color: #540E18;
+}
+span.account {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
 /* location */
 .location-section {
+    display: block;
+    text-align: center;
     padding: 3.125rem 0 0;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
+    margin-top: 9rem;;
 }
 
 .map_wrap {
@@ -283,6 +331,7 @@ a.inv-phone-icon:hover {
     line-height: 150%;
     display: block;
     margin-inline-start: 40px;
+    text-align: left;
 }
 
 .input_etel {
@@ -291,6 +340,7 @@ a.inv-phone-icon:hover {
     line-height: 150%;
     display: block;
     margin-inline-start: 40px;
+    text-align: left;
 }
 
 .icon_tel {
@@ -316,14 +366,13 @@ a.hall-phone-icon {
     margin-left: 1.250rem;
     font-size: 2.89rem;
     font-weight: 500;
-    line-height: 2.250rem;
     text-align: center;
     color: #000;
     text-decoration: none !important;
 }
 
 a.hall-phone-icon:hover {
-    color:424781;
+    color: #424781;
     text-decoration:none;
     cursor:pointer;
 }

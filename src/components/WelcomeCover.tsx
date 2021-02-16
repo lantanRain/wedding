@@ -24,7 +24,7 @@ class WelcomeCover extends Component {
                             <img src={'http://3.35.3.219/images/cover.jpg'} />
                         </div>
                         <div className="welcome-info">
-                            <p className="date">2021. 02. 27. SAT PM 6:00</p>
+                            <p className="date">2021. 02. 27. 토요일 오후 6:00</p>
                             <p className="txt">빌라드지디 수서</p>
                         </div>
                     </div>
