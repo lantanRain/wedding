@@ -14,9 +14,8 @@ function App() {
         <div className="content">
             <WelcomeCover></WelcomeCover>
             <InvitationInfo></InvitationInfo>
+            <Gallery></Gallery>
             <Location></Location>
-            {/* <Gallery></Gallery> */}
-            {/* <Remittance></Remittance> */}
         </div>
     );
 }

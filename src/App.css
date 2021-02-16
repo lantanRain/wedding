@@ -241,7 +241,7 @@ body::-webkit-scrollbar {
 a.inv-phone-icon {
     font-family: 'KoPub Batang';
     margin-left: 1.250rem;
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     font-weight: 500;
     line-height: 2.250rem;
     text-align: center;
@@ -259,7 +259,7 @@ a.inv-phone-icon:hover {
 .invitation-parent {
     display: block;
     text-align: center;
-    padding: 1rem 0 0;
+    padding: 0.8rem 0 0;
     margin: 0;
 }
 .invitation-parent .con {
@@ -301,45 +301,84 @@ span.account {
     white-space: pre-wrap;
 }
 
+.invite-notification{
+    display: block;
+    padding: 3.125rem 0 0;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+.noti-title {
+    margin-top: 2rem;
+    margin-bottom: 0.76rem;
+    font-family: 'KoPub Batang';
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    color: #354C41;
+    letter-spacing: 0.2em;
+}
+
+
+/* gallery */
+
+
 /* location */
 .location-section {
     display: block;
-    text-align: center;
-    padding: 3.125rem 0 0;
-    margin-top: 9rem;;
+    padding: 2rem 0 0;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 .map_wrap {
-    margin: 0 15px;
+    width: 100%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
     border: 0px;
     line-height: 10%;
     box-sizing: border-box;
+    text-align: center;
+    ;
+    background-color: #9EA6CB;
 }
 
-.location-address .address {
-    padding: 20px;
+#daumRoughmapContainer1613323348322 {
+    width: 100%;
+}
+
+.location-address {
+    padding-top: 1rem;
+    padding-top: 1rem;
+    background-color: #9EA6CB;
 }
 
 .input_hall {
-    color: #555;
-    font-size: 1.23rem;
+    color: #000;
+    font-size: 1.3rem;
+    line-height: 150%;
+    display: block;
+    margin-inline-start: 1.5rem;
+    text-align: left;
 }
 
 .input_address {
-    color: #666;
+    color: #333;
     font-size: 15px;
     line-height: 150%;
     display: block;
-    margin-inline-start: 40px;
+    margin-inline-start: 1.5rem;
     text-align: left;
 }
 
 .input_etel {
-    color: #666;
+    color: #333;
     font-size: 15px;
     line-height: 150%;
     display: block;
-    margin-inline-start: 40px;
+    margin-inline-start: 1.5rem;
     text-align: left;
 }
 
@@ -356,19 +395,26 @@ span.account {
     font-weight: 500;
     line-height: 2.250rem;
     text-align: center;
+    display: block;
     color: #000;
     text-decoration: none !important;
 }
 
+.input_call {
+    position:relative;
+    text-align: right;
+}
 
 a.hall-phone-icon {
+    position:absolute;
     font-family: 'KoPub Batang';
-    margin-left: 1.250rem;
-    font-size: 2.89rem;
+    font-size: 3.2rem;
     font-weight: 500;
-    text-align: center;
+    text-align: right;
     color: #000;
     text-decoration: none !important;
+    top : -5rem;
+    right: 2rem;
 }
 
 a.hall-phone-icon:hover {

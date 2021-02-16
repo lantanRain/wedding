@@ -21,7 +21,7 @@ class WelcomeCover extends Component {
                             </p>
                         </div>
                         <div className="welcome-photo">
-                            <img src={'http://3.35.3.219/images/cover.jpg'} />
+                            <img src={'http://hambb.site/images/cover.jpg'} />
                         </div>
                         <div className="welcome-info">
                             <p className="date">2021. 02. 27. 토요일 오후 6:00</p>
