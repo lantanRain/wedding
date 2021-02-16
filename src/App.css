@@ -88,7 +88,7 @@ body::-webkit-scrollbar {
     right: 0.563rem;
     bottom: 0;
     display: block;
-    border: 2px solid #ddd;
+    border: 2px solid #ffffff;
     border-bottom: 0;
 }
 
@@ -96,8 +96,9 @@ body::-webkit-scrollbar {
     width: calc(100% - 1.125rem);
     margin: 0 auto;
     padding: 1.563rem 0 2.500rem;
-    border: 2px solid #ddd;
+    border: 0.563rem solid #ffffff;
     border-top: 0;
+    background-color: #B3BFED;
 }
 
 .welcome-info .date {
@@ -109,7 +110,7 @@ body::-webkit-scrollbar {
 
 .welcome-info .txt {
     font-family: "Noto Sans KR";
-    font-size: 0.750rem;
+    font-size: 0.8rem;
     color: #333;
     letter-spacing: 0.1em;
 }
@@ -322,13 +323,25 @@ span.account {
 
 
 /* gallery */
-
+.gallery-layout {
+    width: 100%;
+    padding: 0.2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.8rem;
+    border: 0px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #9EA6CB;
+}
+.gallery-image{
+    max-width: 350px;
+}
 
 /* location */
 .location-section {
     display: block;
     padding: 2rem 0 0;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
 }
 
@@ -341,7 +354,6 @@ span.account {
     line-height: 10%;
     box-sizing: border-box;
     text-align: center;
-    ;
     background-color: #9EA6CB;
 }
 
@@ -422,3 +434,25 @@ a.hall-phone-icon:hover {
     text-decoration:none;
     cursor:pointer;
 }
+
+/* snow */
+.snow-bg {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background-image: url('http://hambb.site/images/snow_bg.png'),
+        url('http://hambb.site/images/snow_eff.png');
+    animation: snow 60s linear infinite;
+ }
+
+ @keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 0px, 0px, -100px 0px;}
+  100% {background-position: 1000px 1000px, 0px, 0px, -100px 0px;}
+ }

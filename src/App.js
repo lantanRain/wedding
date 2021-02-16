@@ -12,6 +12,7 @@ import Remittance from '../src/components/Remittance';
 function App() {
     return (
         <div className="content">
+            <section className="snow-bg"></section>
             <WelcomeCover></WelcomeCover>
             <InvitationInfo></InvitationInfo>
             <Gallery></Gallery>
