@@ -86,7 +86,7 @@ class InvitationInfo extends Component {
                             </div>
                         </div>
                         <div className="col">
-                            <div className="honju-tit sb">신부 측 혼주 👰🏻‍♀️</div>
+                            <div className="honju-tit sb">신부 측 혼주 👰🏻</div>
                             <div className="box">
                                 <div className="name"><span>아버지</span> <strong>정용갑</strong></div>
                                 <div className="name"><span>어머니</span> <strong>최옥선</strong></div>
